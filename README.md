@@ -1,9 +1,17 @@
 Репозиторий является частью проекта [Tarder](https://tarder.ru)
 
-Инструкцию по работе с программой вы сможете найти в [справочной системе](https://tarder.ru/info/business/avtomaticheskoe-obnovlenie-dannyh):
+Инструкцию по работе с программой вы сможете найти в [справочной системе](https://tarder.ru/info/business/avtomaticheskoe-obnovlenie-dannyh)
 
-Используя систему Tarder вы соглашаетесь с [условиями использования](https://tarder.ru/info/general/terms-of-use):
+Используя систему Tarder вы соглашаетесь с [условиями использования](https://tarder.ru/info/general/terms-of-use)
 
+
+**Быстрый запуск**:
+
+- Скачиваете на целевой компьютер скомпилированный файл TarderSync.exe из папки "for_user"
+
+- Помещаете файл в отдельную папку, например "TarderSync", в которой после запуска будут созданы файлы конфигурации и база данных
+
+- Запускаете и настраивате обмен, согласно [инструкции](https://tarder.ru/info/business/avtomaticheskoe-obnovlenie-dannyh)
 
 **Быстрый запуск из исходников**:
 
