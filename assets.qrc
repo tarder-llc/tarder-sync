@@ -1,0 +1,13 @@
+<RCC>
+  <qresource>
+    <file>assets/stop.png</file>
+    <file>assets/start.png</file>
+    <file>assets/pause.png</file>
+    <file>assets/check_black.png</file>
+    <file>assets/check_green.png</file>
+    <file>assets/error.png</file>
+    <file>assets/refresh.png</file>
+    <file>assets/warning.png</file>
+    <file>assets/logo_blue_254.png</file>
+  </qresource>
+</RCC>

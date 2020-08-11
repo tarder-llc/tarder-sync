@@ -1,0 +1,357 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'general.ui'
+##
+## Created by: Qt User Interface Compiler version 5.14.1
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide2.QtCore import (QCoreApplication, QMetaObject, QRect, QSize, Qt)
+from PySide2.QtGui import (QFont,
+                           QPixmap)
+from PySide2.QtWidgets import *
+
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        if Form.objectName():
+            Form.setObjectName(u"Form")
+        Form.resize(1154, 800)
+        sizePolicy = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(Form.sizePolicy().hasHeightForWidth())
+        Form.setSizePolicy(sizePolicy)
+        Form.setMinimumSize(QSize(1150, 800))
+        self.gridLayout = QGridLayout(Form)
+        self.gridLayout.setSpacing(0)
+        self.gridLayout.setObjectName(u"gridLayout")
+        self.gridLayout.setContentsMargins(0, 0, 0, 0)
+        self.wrapper = QWidget(Form)
+        self.wrapper.setObjectName(u"wrapper")
+        self.wrapper.setMinimumSize(QSize(1150, 800))
+        self.gridLayout_3 = QGridLayout(self.wrapper)
+        self.gridLayout_3.setObjectName(u"gridLayout_3")
+        self.splitter = QSplitter(self.wrapper)
+        self.splitter.setObjectName(u"splitter")
+        sizePolicy1 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Expanding)
+        sizePolicy1.setHorizontalStretch(0)
+        sizePolicy1.setVerticalStretch(0)
+        sizePolicy1.setHeightForWidth(self.splitter.sizePolicy().hasHeightForWidth())
+        self.splitter.setSizePolicy(sizePolicy1)
+        self.splitter.setMinimumSize(QSize(0, 0))
+        self.splitter.setMaximumSize(QSize(16777215, 16777215))
+        self.splitter.setOrientation(Qt.Vertical)
+        self.splitter.setOpaqueResize(True)
+        self.splitter.setHandleWidth(5)
+        self.tabs = QTabWidget(self.splitter)
+        self.tabs.setObjectName(u"tabs")
+        self.tabs.setEnabled(True)
+        sizePolicy2 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        sizePolicy2.setHorizontalStretch(0)
+        sizePolicy2.setVerticalStretch(55)
+        sizePolicy2.setHeightForWidth(self.tabs.sizePolicy().hasHeightForWidth())
+        self.tabs.setSizePolicy(sizePolicy2)
+        self.tabs.setMinimumSize(QSize(0, 0))
+        self.tabs.setMaximumSize(QSize(16777215, 16777214))
+        self.tabs.setSizeIncrement(QSize(0, 0))
+        self.tabs.setBaseSize(QSize(0, 0))
+        font = QFont()
+        font.setPointSize(10)
+        self.tabs.setFont(font)
+        self.tabs.setTabPosition(QTabWidget.North)
+        self.tabs.setTabShape(QTabWidget.Rounded)
+        self.tabs.setTabsClosable(False)
+        self.tabs.setMovable(False)
+        self.dashboard = QWidget()
+        self.dashboard.setObjectName(u"dashboard")
+        sizePolicy.setHeightForWidth(self.dashboard.sizePolicy().hasHeightForWidth())
+        self.dashboard.setSizePolicy(sizePolicy)
+        self.dashboard.setMinimumSize(QSize(0, 0))
+        self.dashboard.setBaseSize(QSize(0, 0))
+        self.dashboard.setLayoutDirection(Qt.LeftToRight)
+        self.verticalLayout_8 = QVBoxLayout(self.dashboard)
+        self.verticalLayout_8.setSpacing(6)
+        self.verticalLayout_8.setObjectName(u"verticalLayout_8")
+        self.widget = QWidget(self.dashboard)
+        self.widget.setObjectName(u"widget")
+        self.widget.setEnabled(True)
+        sizePolicy3 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Maximum)
+        sizePolicy3.setHorizontalStretch(0)
+        sizePolicy3.setVerticalStretch(0)
+        sizePolicy3.setHeightForWidth(self.widget.sizePolicy().hasHeightForWidth())
+        self.widget.setSizePolicy(sizePolicy3)
+        self.horizontalLayout = QHBoxLayout(self.widget)
+        self.horizontalLayout.setObjectName(u"horizontalLayout")
+        self.label_6 = QLabel(self.widget)
+        self.label_6.setObjectName(u"label_6")
+        sizePolicy3.setHeightForWidth(self.label_6.sizePolicy().hasHeightForWidth())
+        self.label_6.setSizePolicy(sizePolicy3)
+        self.label_6.setMinimumSize(QSize(0, 0))
+        font1 = QFont()
+        font1.setPointSize(11)
+        self.label_6.setFont(font1)
+        self.label_6.setStyleSheet(u"")
+
+        self.horizontalLayout.addWidget(self.label_6)
+
+        self.api_key_value = QLineEdit(self.widget)
+        self.api_key_value.setObjectName(u"api_key_value")
+        self.api_key_value.setMinimumSize(QSize(0, 32))
+        font2 = QFont()
+        font2.setPointSize(12)
+        self.api_key_value.setFont(font2)
+        self.api_key_value.setStyleSheet(u"")
+        self.api_key_value.setReadOnly(True)
+        self.api_key_value.setClearButtonEnabled(False)
+
+        self.horizontalLayout.addWidget(self.api_key_value)
+
+        self.api_key_logout_b = QPushButton(self.widget)
+        self.api_key_logout_b.setObjectName(u"api_key_logout_b")
+        self.api_key_logout_b.setEnabled(True)
+        sizePolicy4 = QSizePolicy(QSizePolicy.Minimum, QSizePolicy.Minimum)
+        sizePolicy4.setHorizontalStretch(0)
+        sizePolicy4.setVerticalStretch(0)
+        sizePolicy4.setHeightForWidth(self.api_key_logout_b.sizePolicy().hasHeightForWidth())
+        self.api_key_logout_b.setSizePolicy(sizePolicy4)
+        self.api_key_logout_b.setMinimumSize(QSize(0, 0))
+        self.api_key_logout_b.setBaseSize(QSize(0, 0))
+        self.api_key_logout_b.setFont(font1)
+
+        self.horizontalLayout.addWidget(self.api_key_logout_b)
+
+
+        self.verticalLayout_8.addWidget(self.widget)
+
+        self.groupBox = QGroupBox(self.dashboard)
+        self.groupBox.setObjectName(u"groupBox")
+        self.groupBox.setMinimumSize(QSize(0, 0))
+        self.groupBox.setFont(font1)
+        self.verticalLayout_2 = QVBoxLayout(self.groupBox)
+        self.verticalLayout_2.setObjectName(u"verticalLayout_2")
+        self.general = QWidget(self.groupBox)
+        self.general.setObjectName(u"general")
+        sizePolicy5 = QSizePolicy(QSizePolicy.Maximum, QSizePolicy.Maximum)
+        sizePolicy5.setHorizontalStretch(0)
+        sizePolicy5.setVerticalStretch(0)
+        sizePolicy5.setHeightForWidth(self.general.sizePolicy().hasHeightForWidth())
+        self.general.setSizePolicy(sizePolicy5)
+        self.general.setMinimumSize(QSize(0, 0))
+        font3 = QFont()
+        font3.setPointSize(11)
+        font3.setBold(False)
+        font3.setWeight(50)
+        self.general.setFont(font3)
+        self.general.setAutoFillBackground(False)
+        self.general.setStyleSheet(u"")
+        self.gridLayout_2 = QGridLayout(self.general)
+        self.gridLayout_2.setObjectName(u"gridLayout_2")
+        self.gridLayout_2.setSizeConstraint(QLayout.SetDefaultConstraint)
+        self.gridLayout_2.setHorizontalSpacing(10)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.autoload_text = QLabel(self.general)
+        self.autoload_text.setObjectName(u"autoload_text")
+        sizePolicy5.setHeightForWidth(self.autoload_text.sizePolicy().hasHeightForWidth())
+        self.autoload_text.setSizePolicy(sizePolicy5)
+        self.autoload_text.setMinimumSize(QSize(0, 0))
+        self.autoload_text.setFont(font1)
+
+        self.gridLayout_2.addWidget(self.autoload_text, 0, 7, 1, 1)
+
+        self.sync_companies_text = QLabel(self.general)
+        self.sync_companies_text.setObjectName(u"sync_companies_text")
+        sizePolicy5.setHeightForWidth(self.sync_companies_text.sizePolicy().hasHeightForWidth())
+        self.sync_companies_text.setSizePolicy(sizePolicy5)
+        self.sync_companies_text.setMinimumSize(QSize(0, 0))
+        self.sync_companies_text.setFont(font1)
+
+        self.gridLayout_2.addWidget(self.sync_companies_text, 0, 4, 1, 1)
+
+        self.sync_companies_next_text = QLabel(self.general)
+        self.sync_companies_next_text.setObjectName(u"sync_companies_next_text")
+        sizePolicy5.setHeightForWidth(self.sync_companies_next_text.sizePolicy().hasHeightForWidth())
+        self.sync_companies_next_text.setSizePolicy(sizePolicy5)
+        self.sync_companies_next_text.setMinimumSize(QSize(0, 0))
+        self.sync_companies_next_text.setFont(font1)
+        self.sync_companies_next_text.setStyleSheet(u"color:grey")
+
+        self.gridLayout_2.addWidget(self.sync_companies_next_text, 2, 4, 1, 1)
+
+        self.sync_companies_last_date = QLabel(self.general)
+        self.sync_companies_last_date.setObjectName(u"sync_companies_last_date")
+        sizePolicy5.setHeightForWidth(self.sync_companies_last_date.sizePolicy().hasHeightForWidth())
+        self.sync_companies_last_date.setSizePolicy(sizePolicy5)
+        self.sync_companies_last_date.setFont(font1)
+        self.sync_companies_last_date.setStyleSheet(u"color:grey")
+        self.sync_companies_last_date.setAlignment(Qt.AlignCenter)
+        self.sync_companies_last_date.setWordWrap(False)
+        self.sync_companies_last_date.setMargin(0)
+        self.sync_companies_last_date.setIndent(0)
+
+        self.gridLayout_2.addWidget(self.sync_companies_last_date, 1, 5, 1, 1)
+
+        self.autoload_b = QPushButton(self.general)
+        self.autoload_b.setObjectName(u"autoload_b")
+        self.autoload_b.setEnabled(True)
+        sizePolicy5.setHeightForWidth(self.autoload_b.sizePolicy().hasHeightForWidth())
+        self.autoload_b.setSizePolicy(sizePolicy5)
+        self.autoload_b.setMinimumSize(QSize(0, 0))
+        self.autoload_b.setBaseSize(QSize(0, 0))
+        self.autoload_b.setFont(font1)
+        self.autoload_b.setStyleSheet(u"padding: 3px 10px")
+
+        self.gridLayout_2.addWidget(self.autoload_b, 0, 8, 1, 1)
+
+        self.sync_companies_date = QLabel(self.general)
+        self.sync_companies_date.setObjectName(u"sync_companies_date")
+        sizePolicy5.setHeightForWidth(self.sync_companies_date.sizePolicy().hasHeightForWidth())
+        self.sync_companies_date.setSizePolicy(sizePolicy5)
+        self.sync_companies_date.setFont(font1)
+        self.sync_companies_date.setAlignment(Qt.AlignCenter)
+        self.sync_companies_date.setWordWrap(False)
+        self.sync_companies_date.setMargin(0)
+        self.sync_companies_date.setIndent(0)
+
+        self.gridLayout_2.addWidget(self.sync_companies_date, 0, 5, 1, 1)
+
+        self.sync_companies_next_date = QLabel(self.general)
+        self.sync_companies_next_date.setObjectName(u"sync_companies_next_date")
+        sizePolicy5.setHeightForWidth(self.sync_companies_next_date.sizePolicy().hasHeightForWidth())
+        self.sync_companies_next_date.setSizePolicy(sizePolicy5)
+        self.sync_companies_next_date.setFont(font1)
+        self.sync_companies_next_date.setStyleSheet(u"color:grey")
+        self.sync_companies_next_date.setAlignment(Qt.AlignCenter)
+        self.sync_companies_next_date.setWordWrap(False)
+        self.sync_companies_next_date.setMargin(0)
+        self.sync_companies_next_date.setIndent(0)
+
+        self.gridLayout_2.addWidget(self.sync_companies_next_date, 2, 5, 1, 1)
+
+        self.sync_companies_last_text = QLabel(self.general)
+        self.sync_companies_last_text.setObjectName(u"sync_companies_last_text")
+        sizePolicy5.setHeightForWidth(self.sync_companies_last_text.sizePolicy().hasHeightForWidth())
+        self.sync_companies_last_text.setSizePolicy(sizePolicy5)
+        self.sync_companies_last_text.setMinimumSize(QSize(0, 0))
+        self.sync_companies_last_text.setFont(font1)
+        self.sync_companies_last_text.setStyleSheet(u"color:grey")
+
+        self.gridLayout_2.addWidget(self.sync_companies_last_text, 1, 4, 1, 1)
+
+        self.sync_companies_img = QLabel(self.general)
+        self.sync_companies_img.setObjectName(u"sync_companies_img")
+        self.sync_companies_img.setEnabled(True)
+        sizePolicy5.setHeightForWidth(self.sync_companies_img.sizePolicy().hasHeightForWidth())
+        self.sync_companies_img.setSizePolicy(sizePolicy5)
+        self.sync_companies_img.setMaximumSize(QSize(20, 20))
+        self.sync_companies_img.setSizeIncrement(QSize(0, 0))
+        self.sync_companies_img.setFont(font)
+        self.sync_companies_img.setPixmap(QPixmap(u":/assets/check_green.png"))
+        self.sync_companies_img.setScaledContents(True)
+
+        self.gridLayout_2.addWidget(self.sync_companies_img, 0, 3, 1, 1)
+
+        self.autoload_img = QLabel(self.general)
+        self.autoload_img.setObjectName(u"autoload_img")
+        self.autoload_img.setEnabled(True)
+        sizePolicy5.setHeightForWidth(self.autoload_img.sizePolicy().hasHeightForWidth())
+        self.autoload_img.setSizePolicy(sizePolicy5)
+        self.autoload_img.setMaximumSize(QSize(20, 20))
+        self.autoload_img.setSizeIncrement(QSize(0, 0))
+        self.autoload_img.setFont(font1)
+        self.autoload_img.setPixmap(QPixmap(u":/assets/warning.png"))
+        self.autoload_img.setScaledContents(True)
+
+        self.gridLayout_2.addWidget(self.autoload_img, 0, 6, 1, 1)
+
+
+        self.verticalLayout_2.addWidget(self.general)
+
+
+        self.verticalLayout_8.addWidget(self.groupBox)
+
+        self.scrollArea = QScrollArea(self.dashboard)
+        self.scrollArea.setObjectName(u"scrollArea")
+        sizePolicy.setHeightForWidth(self.scrollArea.sizePolicy().hasHeightForWidth())
+        self.scrollArea.setSizePolicy(sizePolicy)
+        self.scrollArea.setAutoFillBackground(False)
+        self.scrollArea.setStyleSheet(u"QScrollArea{\n"
+"border: none; background: transparent\n"
+"}")
+        self.scrollArea.setWidgetResizable(True)
+        self.container_companies = QWidget()
+        self.container_companies.setObjectName(u"container_companies")
+        self.container_companies.setGeometry(QRect(0, 0, 1112, 16))
+        sizePolicy3.setHeightForWidth(self.container_companies.sizePolicy().hasHeightForWidth())
+        self.container_companies.setSizePolicy(sizePolicy3)
+        self.container_companies.setStyleSheet(u"#scrollAreaWidgetContents{\n"
+"border: none; background: transparent\n"
+"}")
+        self.verticalLayout_3 = QVBoxLayout(self.container_companies)
+        self.verticalLayout_3.setSpacing(0)
+        self.verticalLayout_3.setObjectName(u"verticalLayout_3")
+        self.verticalLayout_3.setContentsMargins(0, 0, 0, 0)
+        self.scrollArea.setWidget(self.container_companies)
+
+        self.verticalLayout_8.addWidget(self.scrollArea)
+
+        self.tabs.addTab(self.dashboard, "")
+        self.company = QWidget()
+        self.company.setObjectName(u"company")
+        self.verticalLayout = QVBoxLayout(self.company)
+        self.verticalLayout.setObjectName(u"verticalLayout")
+        self.tabs.addTab(self.company, "")
+        self.splitter.addWidget(self.tabs)
+        self.verticalLayoutWidget = QWidget(self.splitter)
+        self.verticalLayoutWidget.setObjectName(u"verticalLayoutWidget")
+        self.container_log = QVBoxLayout(self.verticalLayoutWidget)
+        self.container_log.setObjectName(u"container_log")
+        self.container_log.setContentsMargins(0, 0, 0, 0)
+        self.log_text = QTextEdit(self.verticalLayoutWidget)
+        self.log_text.setObjectName(u"log_text")
+        sizePolicy.setHeightForWidth(self.log_text.sizePolicy().hasHeightForWidth())
+        self.log_text.setSizePolicy(sizePolicy)
+
+        self.container_log.addWidget(self.log_text)
+
+        self.splitter.addWidget(self.verticalLayoutWidget)
+
+        self.gridLayout_3.addWidget(self.splitter, 0, 0, 1, 1)
+
+
+        self.gridLayout.addWidget(self.wrapper, 0, 0, 1, 1)
+
+
+        self.retranslateUi(Form)
+
+        self.tabs.setCurrentIndex(0)
+
+
+        QMetaObject.connectSlotsByName(Form)
+    # setupUi
+
+    def retranslateUi(self, Form):
+        Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
+#if QT_CONFIG(accessibility)
+        self.dashboard.setAccessibleName("")
+#endif // QT_CONFIG(accessibility)
+        self.label_6.setText(QCoreApplication.translate("Form", u"<html><head/><body><p>Api \u043a\u043b\u044e\u0447</p></body></html>", None))
+        self.api_key_value.setText("")
+        self.api_key_logout_b.setText(QCoreApplication.translate("Form", u"\u0412\u044b\u0439\u0442\u0438", None))
+        self.groupBox.setTitle(QCoreApplication.translate("Form", u"\u041e\u0441\u043d\u043e\u0432\u043d\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f", None))
+        self.autoload_text.setText(QCoreApplication.translate("Form", u"\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430 \u0432 \u0430\u0432\u0442\u043e\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435", None))
+        self.sync_companies_text.setText(QCoreApplication.translate("Form", u"\u0421\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0430\u0446\u0438\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0439", None))
+        self.sync_companies_next_text.setText(QCoreApplication.translate("Form", u"\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u0437\u0430\u043f\u0443\u0441\u043a", None))
+        self.sync_companies_last_date.setText(QCoreApplication.translate("Form", u"12.05.2020 12:56", None))
+        self.autoload_b.setText(QCoreApplication.translate("Form", u"\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c", None))
+        self.sync_companies_date.setText(QCoreApplication.translate("Form", u"12.05.2020 12:56", None))
+        self.sync_companies_next_date.setText(QCoreApplication.translate("Form", u"12.05.2020 12:56", None))
+        self.sync_companies_last_text.setText(QCoreApplication.translate("Form", u"\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u043f\u044b\u0442\u043a\u0430", None))
+        self.sync_companies_img.setText("")
+        self.autoload_img.setText("")
+        self.tabs.setTabText(self.tabs.indexOf(self.dashboard), QCoreApplication.translate("Form", u"\u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433", None))
+        self.tabs.setTabText(self.tabs.indexOf(self.company), QCoreApplication.translate("Form", u"\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f 1", None))
+    # retranslateUi
+
